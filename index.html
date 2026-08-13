@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praneeth Gowda K | Portfolio</title>
+    <meta name="description" content="Portfolio of Praneeth Gowda K, a Full Stack Developer and AI Enthusiast.">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons (Sleek modern icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="styles.css?v=19">
+</head>
+
+<body>
+
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-effect">
+        <div class="logo">
+            <a href="#home">Port<span>folio.</span></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active nav-link">Home</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#critical-skills" class="nav-link">Core</a></li>
+            <li><a href="#process" class="nav-link">Process</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#certifications" class="nav-link">Certificates</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Main Content Wrapper (hides footer until end) -->
+    <main class="content-wrapper">
+        <!-- 1. Hero Section -->
+        <section id="home" class="hero">
+            <div class="section-inner">
+                <!-- Left: Text Content -->
+                <div class="hero-content">
+                    <span class="greeting intro-text">Hi, I am</span>
+                    <h1 class="name"><span id="typewriter-name"></span><span class="typewriter-cursor"></span></h1>
+
+                    <p class="hero-description intro-text"><span class="highlight-bio">Computer Science Engineering (CSE) student</span> currently in my <span class="highlight-bio">4th Year (7th Sem)</span>. I am a passionate <span class="highlight-bio">Full Stack Developer</span> with hands-on experience in Java, Python, and React, building secure and AI-integrated applications.</p>
+                    <div class="hero-cta intro-text">
+                        <a href="resume/Resume.pdf" class="btn btn-secondary" target="_blank">Resume <i
+                                class="ph ph-download-simple"></i></a>
+                        <a href="#projects" class="btn btn-primary nav-link">Explore Work</a>
+                        <a href="#contact" class="btn btn-secondary nav-link">Let's Connect</a>
+                    </div>
+                </div>
+
+                <!-- Right: Aesthetic Geometric Profile -->
+                <div class="hero-visual intro-visual">
+                    <div class="hero-image-container">
+                        <div class="geo-circle geo-circle-1"></div>
+                        <div class="geo-circle geo-circle-3"></div>
+                        <div class="hero-profile-img blank-avatar-placeholder">
+                            <i class="ph ph-user"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Restored Mouse Animation -->
+                <div class="scroll-indicator intro-mouse">
+                    <a href="#about" class="nav-link">
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Education Section (Staggered Watermark Cards) -->
+        <section id="education" class="education">
+            <div class="section-inner">
+                <div class="section-header reveal reveal-up">
+                    <h2>Academic <span class="gradient-text">Journey</span></h2>
+                    <p class="subtitle">My Educational Background</p>
+                </div>
+                <div class="edu-grid">
+                    <div class="edu-card reveal reveal-up">
+                        <div class="edu-content">
+                            <div class="edu-card-header">
+                                <h3>Sri Krishna Institute Of Technology</h3>
+                                <span class="edu-year">2023 - 2027</span>
+                            </div>
+                            <h4>B.E Computer Science and Engineering</h4>
+                            <p>Visvesvaraya Technological University (Belagavi)</p>
+                            <div class="edu-score">CGPA: 8.29 (Aggregate up to 5th Sem)</div>
+                        </div>
+                    </div>
+                    <div class="edu-card offset-card reveal reveal-up delay-100">
+                        <div class="edu-content">
+                            <div class="edu-card-header">
+                                <h3>Ashok Comp PU College</h3>
+                                <span class="edu-year">2021 - 2023</span>
+                            </div>
+                            <h4>PCMC</h4>
+                            <p>Department of Pre-University Education (Karnataka)</p>
+                            <div class="edu-score">Percentage: 92.50%</div>
+                        </div>
+                    </div>
+                    <div class="edu-card reveal reveal-up delay-200">
+                        <div class="edu-content">
+                            <div class="edu-card-header">
+                                <h3>St Claret High School</h3>
+                                <span class="edu-year">2020 - 2021</span>
+                            </div>
+                            <h4>Secondary School Certificate (SSLC/Tenth)</h4>
+                            <div class="edu-score" style="margin-top: 15px;">Percentage: 86.24%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Skills Section -->
+        <section id="skills" class="skills">
+            <div class="section-inner">
+                <div class="section-header reveal reveal-up">
+                    <h2>My <span class="gradient-text">Skills</span></h2>
+                    <p class="subtitle">Technologies I Work With</p>
+                </div>
+
+                <div class="skills-container reveal reveal-up delay-100">
+                    
+                    <!-- Languages -->
+                    <div class="skill-category-card glass-effect">
+                        <h3 class="category-title">Programming Languages</h3>
+                        <div class="category-items">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python">
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java">
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript">
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5">
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3">
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks & Libs -->
+                    <div class="skill-category-card glass-effect">
+                        <h3 class="category-title">Frameworks & Libraries</h3>
+                        <div class="category-items">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React">
+                                <span>React</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" class="icon-invert" alt="Express.js">
+                                <span>Express.js</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI">
+                                <span>FastAPI</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" alt="Scikit-Learn">
+                                <span>Scikit-Learn</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas">
+                                <span>Pandas</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-category-card glass-effect">
+                        <h3 class="category-title">Databases</h3>
+                        <div class="category-items">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL">
+                                <span>MySQL</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="SQLite">
+                                <span>SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skill-category-card glass-effect">
+                        <h3 class="category-title">Tools & Other</h3>
+                        <div class="category-items">
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git">
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" class="icon-invert" alt="GitHub">
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code">
+                                <span>VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+                <!-- Core Competencies Section (Static Grid) -->
+        <section id="critical-skills" class="core-grid-section">
+            <div class="section-inner">
+                <div class="section-header reveal reveal-up">
+                    <h2>Core <span class="gradient-text">Competencies</span></h2>
+                </div>
+                <div class="core-static-grid">
+                    <div class="core-box glass-effect reveal reveal-up">
+                        <i class="ph ph-brain text-gradient"></i>
+                        <h3>Critical Thinking</h3>
+                    </div>
+                    <div class="core-box glass-effect reveal reveal-up delay-100">
+                        <i class="ph ph-puzzle-piece text-gradient"></i>
+                        <h3>Problem-Solving</h3>
+                    </div>
+                    <div class="core-box glass-effect reveal reveal-up delay-200">
+                        <i class="ph ph-users-three text-gradient"></i>
+                        <h3>Teamwork</h3>
+                    </div>
+                    <div class="core-box glass-effect reveal reveal-up delay-300">
+                        <i class="ph ph-magnifying-glass text-gradient"></i>
+                        <h3>Research & Analysis</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process / How I Build Section -->
+        <section id="process" class="process">
+            <div class="section-inner">
+                <div class="section-header reveal reveal-up">
+                    <h2>How I <span class="gradient-text">Build</span></h2>
+                    <p class="subtitle">My Development Process</p>
+                </div>
+                <div class="process-accordion" id="process-accordion">
+                    <div class="accordion-item active">
+                        <div class="step-number">01</div>
+                        <div class="accordion-content">
+                            <h3>Understand Problem</h3>
+                            <p>Deeply analyzing real-world problems and identifying constraints.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="step-number">02</div>
+                        <div class="accordion-content">
+                            <h3>Define Goals</h3>
+                            <p>Establishing clear requirements, architectural goals, and success metrics.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="step-number">03</div>
+                        <div class="accordion-content">
+                            <h3>Build & Develop</h3>
+                            <p>Writing clean, modular, and scalable code utilizing modern technology stacks.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="step-number">04</div>
+                        <div class="accordion-content">
+                            <h3>Test & Deploy</h3>
+                            <p>Ensuring system security, optimizing performance, and deploying robust solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Projects Section (Clean Grid Layout) -->
+        <section id="projects" class="projects">
+            <div class="section-inner">
+                <div class="section-header reveal reveal-up">
+                    <h2>Featured <span class="gradient-text">Projects</span></h2>
+                    <p class="subtitle">My Latest Work</p>
+                </div>
+
+                <div class="projects-stack" id="projects-stack">
+                    <!-- Project 1 -->
+                    <article class="stacked-card" id="card-1">
+                        <div class="stacked-card-inner glass-effect">
+                            <div class="stacked-content">
+                                <div class="project-header">
+                                    <h3>Classtrix</h3>
+                                    <i class="ph ph-scan text-gradient project-icon-small"></i>
+                                </div>
+                                <p>AI-powered attendance platform that automates attendance through facial recognition and predicts attendance shortages before they become critical, enabling institutions to identify and support at-risk students early.</p>
+                                <div class="tech-stack"><span>React</span><span>TypeScript</span><span>Node.js</span><span>SQLite</span><span>Python</span><span>DeepFace</span><span>XGBoost</span></div>
+                                <div class="project-links">
+                                    <a href="https://github.com/PraneethGowdaK/Classtrix-The-Smart-Core-Of-Classroom-Intelligence" target="_blank" class="btn btn-outline"><i class="ph ph-github-logo"></i> Source Code</a>
+                                    <a href="#" class="btn btn-outline disabled-link" title="Not Yet Deployed"><i class="ph ph-globe"></i> Live Demo (Not Deployed)</a>
+                                    <button class="btn btn-primary explore-btn" data-project-id="clastrix">Explore Project <i class="ph ph-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="stacked-card" id="card-2">
+                        <div class="stacked-card-inner glass-effect">
+                            <div class="stacked-content">
+                                <div class="project-header">
+                                    <h3>Diabetes Risk Prediction System</h3>
+                                    <i class="ph ph-heartbeat text-gradient project-icon-small"></i>
+                                </div>
+                                <p>Healthcare AI application that predicts diabetes risk from patient health indicators using a trained XGBoost model with 96.8% accuracy.</p>
+                                <div class="tech-stack"><span>Python</span><span>XGBoost</span><span>PyQt5</span><span>Scikit-Learn</span></div>
+                                <div class="project-links">
+                                    <a href="https://github.com/PraneethGowdaK/Diabetes-Risk-Prediction-System" target="_blank" class="btn btn-outline"><i class="ph ph-github-logo"></i> Source Code</a>
+                                    <a href="#" class="btn btn-outline disabled-link" title="Desktop App - No Live Demo"><i class="ph ph-desktop"></i> Desktop App</a>
+                                    <button class="btn btn-primary explore-btn" data-project-id="diabetes">Explore Project <i class="ph ph-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="stacked-card" id="card-3">
+                        <div class="stacked-card-inner glass-effect">
+                            <div class="stacked-content">
+                                <div class="project-header">
+                                    <h3>ShopNest</h3>
+                                    <i class="ph ph-shopping-bag text-gradient project-icon-small"></i>
+                                </div>
+                                <p>A server-side rendered e-commerce platform that enables secure user authentication, dynamic product browsing, and session-based shopping cart management through Java EE technologies.</p>
+                                <div class="tech-stack"><span>Java</span><span>Servlets</span><span>JSP</span><span>MySQL</span><span>JDBC</span><span>Apache Tomcat</span></div>
+                                <div class="project-links">
+                                    <a href="https://github.com/PraneethGowdaK/ShopNest" target="_blank" class="btn btn-outline"><i class="ph ph-github-logo"></i> Source Code</a>
+                                    <a href="#" class="btn btn-outline disabled-link" title="Not Yet Deployed"><i class="ph ph-globe"></i> Live Demo (Not Deployed)</a>
+                                    <button class="btn btn-primary explore-btn" data-project-id="shopnest">Explore Project <i class="ph ph-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Certifications Section (Scroll-Linked Horizontal Slider) -->
+        <section id="certifications" class="cert-horizontal-wrapper">
+            <div class="cert-sticky-container">
+                <div class="section-header">
+                    <h2>Certifications & <span class="gradient-text">Achievements</span></h2>
+                    <p class="subtitle">Continuous Learning & Milestones</p>
+                </div>
+                <div class="cert-scroll-content" id="cert-scroll-content">
+                    <div class="cert-card glass-effect">
+                        <i class="ph ph-certificate size-large text-gradient" style="margin-bottom: 20px; display: inline-block;"></i>
+                        <h3>Full Stack Developer</h3>
+                        <h4 class="gradient-text" style="font-size: 1.2rem; font-weight: 600;">Kodnest Technologies</h4>
+                        <a href="certificates/Kodnest Full Stack Java Intern.pdf" target="_blank" class="btn btn-secondary" style="margin-top: 15px; width: 100%;">View Certificate</a>
+                    </div>
+                    <div class="cert-card glass-effect">
+                        <i class="ph ph-certificate size-large text-gradient" style="margin-bottom: 20px; display: inline-block;"></i>
+                        <h3>DSA with Java</h3>
+                        <h4 class="gradient-text" style="font-size: 1.2rem; font-weight: 600;">Apna College</h4>
+                        <a href="certificates/Apna DSA with Java.pdf" target="_blank" class="btn btn-secondary" style="margin-top: 15px; width: 100%;">View Certificate</a>
+                    </div>
+                    <div class="cert-card glass-effect">
+                        <i class="ph ph-certificate size-large text-gradient" style="margin-bottom: 20px; display: inline-block;"></i>
+                        <h3>Python For Data Science</h3>
+                        <h4 class="gradient-text" style="font-size: 1.2rem; font-weight: 600;">NPTEL (IIT-Madras)</h4>
+                        <a href="certificates/NPTEL Python for Data Science.pdf" target="_blank" class="btn btn-secondary" style="margin-top: 15px; width: 100%;">View Certificate</a>
+                    </div>
+                    <div class="cert-card glass-effect">
+                        <i class="ph ph-certificate size-large text-gradient" style="margin-bottom: 20px; display: inline-block;"></i>
+                        <h3>SAP Certification</h3>
+                        <h4 class="gradient-text" style="font-size: 1.2rem; font-weight: 600;">SAP</h4>
+                        <a href="certificates/Sap.pdf" target="_blank" class="btn btn-secondary" style="margin-top: 15px; width: 100%;">View Certificate</a>
+                    </div>
+                    <div class="cert-card glass-effect">
+                        <i class="ph ph-certificate size-large text-gradient" style="margin-bottom: 20px; display: inline-block;"></i>
+                        <h3>Basics of AWS</h3>
+                        <h4 class="gradient-text" style="font-size: 1.2rem; font-weight: 600;">Nano Stream Technologies</h4>
+                        <a href="certificates/Nano Stream AWS.pdf" target="_blank" class="btn btn-secondary" style="margin-top: 15px; width: 100%;">View Certificate</a>
+                    </div>
+                    <div class="cert-card glass-effect">
+                        <i class="ph ph-trophy size-large text-gradient" style="margin-bottom: 20px; display: inline-block;"></i>
+                        <h3>Innovation Marathon</h3>
+                        <h4 class="gradient-text" style="font-size: 1.2rem; font-weight: 600;">Hackathon Finalist</h4>
+                        <a href="certificates/final inovation marathon .pdf" target="_blank" class="btn btn-secondary" style="margin-top: 15px; width: 100%;">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 5. Contact Section (Curtain Reveal Footer) -->
+    <footer id="contact" class="curtain-footer">
+        <div class="section-inner text-center" style="text-align: center;">
+            <div class="section-header">
+                <h2>Let's <span class="gradient-text">Connect</span></h2>
+                <p class="subtitle">I'm always open to new opportunities and collaborations.</p>
+            </div>
+            
+            <div class="contact-actions" style="margin-top: 30px; margin-bottom: 50px;">
+                <button id="open-contact-modal" class="btn btn-primary btn-large glow-btn" style="padding: 15px 40px; font-size: 1.2rem;">
+                    <i class="ph ph-paper-plane-right"></i> Send Message
+                </button>
+            </div>
+
+            <div class="social-links-row">
+                <a href="https://github.com/PraneethGowdaK" target="_blank" class="social-icon-card">
+                    <i class="ph ph-github-logo"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/praneethgowdak" target="_blank" class="social-icon-card">
+                    <i class="ph ph-linkedin-logo"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:KPraneethGowda@gmail.com" class="social-icon-card">
+                    <i class="ph ph-envelope-simple"></i>
+                    <span>Email</span>
+                </a>
+                <a href="tel:+916361114186" class="social-icon-card">
+                    <i class="ph ph-phone"></i>
+                    <span>+91 6361114186</span>
+                </a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Praneeth Gowda K. Engineered with passion in Bangalore, India.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Form Modal Overlay -->
+    <div class="full-modal-overlay" id="contact-modal">
+        <div class="modal-header glass-effect">
+            <span class="modal-nav-text">Send a Message</span>
+            <button class="modal-close-btn" id="contact-modal-close"><i class="ph ph-x"></i></button>
+        </div>
+        
+        <div class="full-modal-content">
+            <div class="full-modal-body" style="max-width: 600px; margin: 0 auto; padding-top: 40px;">
+                <div class="section-header text-center" style="text-align: center; margin-bottom: 30px;">
+                    <h2>Get In <span class="gradient-text">Touch</span></h2>
+                    <p class="subtitle">Drop me a message below</p>
+                </div>
+                <!-- Form handled by Web3Forms -->
+                <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Replace with your Access Key -->
+                    <input type="hidden" name="access_key" value="354ff020-0feb-4b09-b8a6-127487103c74">
+                    <input type="hidden" name="subject" value="New Submission from Portfolio">
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <div class="form-group" style="position: relative;">
+                        <i class="ph ph-user" style="position: absolute; left: 15px; top: 17px; font-size: 1.2rem; color: var(--text-muted);"></i>
+                        <input type="text" name="name" required placeholder="Write your name" style="padding-left: 45px;">
+                    </div>
+                    <div class="form-group" style="position: relative;">
+                        <i class="ph ph-envelope-simple" style="position: absolute; left: 15px; top: 17px; font-size: 1.2rem; color: var(--text-muted);"></i>
+                        <input type="email" name="email" required placeholder="Write your Gmail or Email" style="padding-left: 45px;">
+                    </div>
+                    <div class="form-group" style="position: relative;">
+                        <i class="ph ph-phone" style="position: absolute; left: 15px; top: 17px; font-size: 1.2rem; color: var(--text-muted);"></i>
+                        <input type="tel" name="phone" placeholder="Write your 10-digit phone number" pattern="[0-9]{10}" maxlength="10" title="Please enter exactly 10 digits" oninput="this.value = this.value.replace(/[^0-9]/g, '');" style="padding-left: 45px;">
+                    </div>
+                    <div class="form-group" style="position: relative;">
+                        <i class="ph ph-chat-text" style="position: absolute; left: 15px; top: 17px; font-size: 1.2rem; color: var(--text-muted);"></i>
+                        <textarea name="message" rows="5" required placeholder="Write your message here..." style="padding-left: 45px;"></textarea>
+                    </div>
+
+                    <!-- hCaptcha Widget to stop bots -->
+                    <div class="h-captcha" data-captcha="true"></div>
+
+                    <button type="submit" class="btn btn-primary btn-block" style="padding: 15px; font-size: 1rem; margin-top: 10px;">
+                        Send Message <i class="ph ph-paper-plane-right"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Premium Full-Screen Project Presentation Overlay -->
+    <div class="full-modal-overlay" id="project-modal">
+        <div class="modal-header glass-effect">
+            <span class="modal-nav-text">Project Overview</span>
+            <!-- Quick Navigation Bar in Header -->
+            <div class="modal-quick-nav hidden-on-mobile">
+                <button class="quick-nav-btn" data-target="modal-problem-section">The Challenge</button>
+                <button class="quick-nav-btn" data-target="modal-solution-section">The Solution</button>
+                <button class="quick-nav-btn" data-target="modal-screenshots-section">Walkthrough</button>
+                <button class="quick-nav-btn" data-target="modal-features-section">Key Features</button>
+                <button class="quick-nav-btn" data-target="modal-results-section">Results</button>
+                <button class="quick-nav-btn" data-target="modal-contributions-section">My Contributions</button>
+            </div>
+            <button class="modal-close-btn" id="modal-close-btn"><i class="ph ph-x"></i></button>
+        </div>
+        
+        <div class="full-modal-content">
+            <div class="full-modal-body">
+                <!-- Hero Section with Links -->
+                <div class="modal-hero">
+                    <div class="modal-hero-icon-wrapper reveal-modal">
+                        <i id="modal-icon" class="ph size-large text-gradient"></i>
+                    </div>
+                    <h2 id="modal-title" class="reveal-modal delay-100">Project Title</h2>
+                    <p id="modal-short-desc" class="modal-short-desc reveal-modal delay-150">Project short description goes here.</p>
+                    <div class="modal-tech-stack reveal-modal delay-200" id="modal-tech">
+                        <!-- Tech stack populated here -->
+                    </div>
+                    <div class="modal-hero-actions reveal-modal delay-300">
+                        <a href="#" class="btn btn-primary" id="modal-link-github"><i class="ph ph-github-logo"></i> Source Code</a>
+                        <a href="#" class="btn btn-secondary" id="modal-link-demo"><i class="ph ph-globe"></i> Live Demo</a>
+                    </div>
+                </div>
+
+                <!-- Quick nav moved to header -->
+
+                <!-- Detailed Content Section -->
+                <div class="modal-article">
+                    <div class="article-section premium-card modal-scroll-reveal" id="modal-problem-section">
+                        <h3><i class="ph ph-warning-circle text-gradient"></i> <span id="modal-problem-title">The Challenge</span></h3>
+                        <p id="modal-problem">Description of the problem solved.</p>
+                    </div>
+
+                    <div class="article-section premium-card modal-scroll-reveal" id="modal-solution-section">
+                        <h3><i class="ph ph-lightbulb text-gradient"></i> <span id="modal-solution-title">The Solution</span></h3>
+                        <p id="modal-solution">How this project solves the problem.</p>
+                    </div>
+
+                    <div class="article-section premium-card" id="modal-screenshots-section">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                            <h3 style="margin-bottom: 0;"><i class="ph ph-image text-gradient"></i> Project Walkthrough</h3>
+                            <button id="skip-to-highlights-btn" class="skip-btn" title="Skip to Highlights">
+                                <i class="ph ph-arrow-down"></i> Skip to Highlights
+                            </button>
+                        </div>
+                        <div id="modal-screenshots" class="screenshot-gallery">
+                            <!-- Screenshots populated here -->
+                        </div>
+                    </div>
+
+                    <div class="article-section premium-card modal-scroll-reveal" id="modal-features-section">
+                        <h3><i class="ph ph-star text-gradient"></i> <span id="modal-features-title">Key Features</span></h3>
+                        <ul id="modal-features" class="feature-grid">
+                            <!-- Bullet points populated here -->
+                        </ul>
+                    </div>
+                    
+                    <div class="article-section premium-card modal-scroll-reveal" id="modal-results-section">
+                        <h3><i class="ph ph-trend-up text-gradient"></i> Results & Impact</h3>
+                        <ul id="modal-results" class="feature-grid">
+                            <!-- Bullet points populated here -->
+                        </ul>
+                    </div>
+
+                    <div class="article-section premium-card modal-scroll-reveal" id="modal-contributions-section">
+                        <h3><i class="ph ph-user text-gradient"></i> My Contributions</h3>
+                        <ul id="modal-contributions" class="feature-grid">
+                            <!-- Bullet points populated here -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Magnifier Glass -->
+    <div id="magnifier-glass" class="img-magnifier-glass"></div>
+
+    <!-- Web3Forms script for hCaptcha -->
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script src="script.js?v=53"></script>
+</body>
+
+</html>
